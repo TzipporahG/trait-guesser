@@ -1,16 +1,18 @@
 /* Base Variables for Customization */
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --bg-color: #ecf0f1;
-    --header-bg-color: #34495e;
-    --footer-bg-color: #363b40;
-    --text-color: #2c3e50;
-    --button-bg-color: #2980b9;
-    --button-hover-color: #1abc9c;
+    /* Changed color scheme to a red one */
+    --primary-color: #db3434;
+    --secondary-color: #502c2c;
+    --bg-color: #f1ecec;
+    --header-bg-color: #5e3434;
+    --footer-bg-color: #403636;
+    --text-color: #502c2c;
+    --button-bg-color: #b92929;
+    --button-hover-color: #bc1a1a;
     --main-border-radius: 14px;
     --input-border-radius: 10px;
-    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Changed font family */
+    --font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
     --font-size: 16px;
     --header-font-size: 32px;
     --subheader-font-size: 22px;
@@ -23,6 +25,8 @@ body {
     color: var(--text-color);
     background-color: var(--bg-color);
     line-height: 1.6;
+    /* added space between letters */
+    letter-spacing: 2px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
